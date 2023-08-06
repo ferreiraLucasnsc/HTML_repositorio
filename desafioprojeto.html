@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meu primeiro site</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="Lucas Ferreira">
+    <meta name="description" content="site< para Desafio de Projeto">
+  </head>
+  <style>
+    mark {
+      background-color: lemonchiffon;
+    }
+  </style>
+  <body>
+    <h1 id="inicio"><font face="Times New Roman"><mark>Curso "HTML na Prática" da DIO.me<sup><small>TM</small></sup></mark></font></h1>
+    <hr>
+    <h3><font face="Verdana">Índice</font></h3>
+    <ol>
+      <li><a href="#apresenta">Apresentando o Curso</a></li>
+      <li><a href="#ferramenta">Ferramentas Utilizadas</a></li>
+      <li><a href="#inspeciona">Inspecionador de Elementos</a></li>
+      <li><a href="#estrutura">Estrutura Básica do HTML</a></li>
+      <li><a href="#tags">Tags</a></li>
+      <li><a href="#atributos">Atributos de Tags</a></li>
+      <li><a href="#texto">Textos</a></li>
+      <li><a href="#lista">Lista</a></li>
+      <li><a href="#links">Links</a></li>
+      <li><a href="#referencia">Referências e Links</a></li>
+    </ol>
+    <hr>
+    <h2 id="apresenta"><font face="Times New Roman">Apresentando o Curso</font></h2>
+    <small><a href="#inicio">(Voltar ao topo)</a></small>
+    <p><font face="Arial">Esta aula introduz os tópicos que serão estudados durante o curso, além de apresentar o objetivo geral: configurar o ambiente de desenvolvimento, entender o inspetor de elementos e <strong>criar sua primeira página HTML</strong>.</font></p>
+    <p>O curso é apresentado por <strong>Diogo Mainardes</strong>, Sênior Developer e Tech Lead.</p>
+    <hr>
+    <h2 id="ferramenta"><font face="Times New Roman">Ferramentas Utilizadas</font></h2>
+    <small><a href="#inicio">(Voltar ao topo)</a></small>
+    <p><font face="Arial">Aqui são apresentadas ferramentas úteis para programação HTML. Dentre elas, temos o <strong>Visual Studio Code</strong> (VSC), editor de código-fonte para aplicações web e cloud, que inclui versionamento Git, realce de sintaxe e várias outras características úteis para programação em diversas linguagens, como JavaScript, PHP, e <strong>HTML/CSS</strong>.</font></p>
+    <hr>
+    <h2 id="inspeciona"><font face="Times New Roman">Inspecionador de Elementos</font></h2>
+    <small><a href="#inicio">(Voltar ao topo)</a></small>
+    <p><font face="Arial">A ferramenta de <strong>inspecionar elementos</strong> está disponível na maioria dos navegadores, incluindo Chrome, Safari e Firefox. Sua função é disponibilizar para o usuário a <strong>visualização do código-fonte</strong> de uma página web, além de permitir temporárias mudanças em elementos do <i>site</i>, mantendo o código-fonte intacto.</font></p>
+    <p><font face="Arial">Este instrumento permite testar alterações, diagnosticar problemas, entender certos recursos de <i>sites</i> observando as classes CSS e até simular um <i>site</i> em dispositivos móveis.</font></p>
+    <hr>
+    <h2 id="estrutura"><font face="Times New Roman">Estrutura básica do HTML</font></h2>
+    <small><a href="#inicio">(Voltar ao topo)</a></small>
+    <p><font face="Arial">Um arquivo <abbr title="HyperText Markup Language">HTML</abbr></font> possui uma estrutura básica que é interpretada por grande parte dos navegadores. Esta estrutura é dividida em três partes:</p>
+    <ul>
+      <li><strong>tag &ltHTML&gt</strong>: <i>tag</i> que vem antes de todo o código (exceto quando é preciso por a <i>tag</i> &lt"!DOCTYPE HTML"&gt, que declara o tipo de arquivo para a interpretação do navegador). Essa tag <strong>possui todos os elementos do documento</strong>, e todos os documentos HTML precisam ter esta tag no início e fim.</li>
+      <li><strong>tag &lthead&gt</strong>: cabeçalho da sua página, a <i>head</i> possui informações que não são totalmente vistas pelo usuário, como metadados de tipo de caracteres. O título, também introduzido por <i>tag</i>, é visível na aba aberta. Estas informações servem para <strong>esclarecer ao navegador funções importantes para sua página</strong>.
+      <li><strong>tag &ltbody&gt</strong>: o corpo do seu texto, a <i>tag body</i> é <strong>tudo o que é visível para o usuário</strong>. Elementos como textos, arquivos multimídia e estilos por <abbr title="Cascading Style Sheets">CSS</abbr> estão no corpo da sua página HTML.
+    </ul>
+    <hr>
+    <h2 id="tags"><font face="Times New Roman">Tags</font></h2>
+    <small><a href="#inicio">(Voltar ao topo)</a></small>
+    <p><font face="Arial">As <i>tags</i> são usadas para <strong>informar ao navegador a estrutura do <i>site</i></strong>, sendo elas interpretadas para exibição. Sua principal característica é uma palavra dentro dos sinais de <i>chevron</i>, ou seja, "maior que" e "menor que" (<strong><></strong>).</font></p>
+    <p>Os dois tipos de <i>tags</i> são as fixas, que precisam apenas de uma <i>tag</i> para funcionarem (como por exemplo, a <i>tag</i> <strong>&ltmeta&gt</strong>, usada no cabeçalho para introduzir metadados), e <i>tags</i> abertas, que precisam de duas: uma de abertura e outra de fechamento, utilizando a barra "<strong>/</strong>" (como as <i>tags</i> de texto paragrafado <strong>&ltp&gt</strong>).</p>
+    <hr>
+    <h2 id="atributos"><font face="Times New Roman">Atributos de Tags</font></h2>
+    <small><a href="#inicio">(Voltar ao topo)</a></small>
+    <p><font face="Arial">As <i>tags</i> também possuem <strong>atributos</strong>, usados para <strong>personalizá-las</strong>, mudando sua estrutura ou funcionalidade.</font></p>
+    <p>Existem atributos gerais que podem ser usados por maioria das <i>tags</i>, como <strong>class</strong>, <strong>id</strong>, ou <strong>style</strong>. Mas também há atributos específicos para certas <i>tags</i>, como <strong>type</strong> para &ltinput&gt e <strong>src</strong> para &ltimg&gt.</p>
+    <hr>
+    <h2 id="texto"><font face="Times New Roman">Textos</font></h2>
+    <small><a href="#inicio">(Voltar ao topo)</a></small>
+    <p><font face="Arial">A tipografia de uma página web é de extrema importância para um documento HTML. Também por isso, possuem <i>tags</i> próprias, e abertas. Alguns exemplos são:</font></p>
+    <ul>
+      <li><strong>&lth1& até &lth6&gt</strong>: <i>tags</i> de títulos, subtítulos e outras formas de texto. Organizadas por uma hierarquia, onde &lth1&gt é a mais importante, maior e mais grossa, e &lth6&gt a menor delas.</li>
+      <li><strong>&ltp&gt</strong>: texto automaticamente paragrafado.</li>
+      <li><strong>&ltblockquote&gt</strong>: citação ou observação menor.</li>
+    </ul>
+    <p>Existem várias outras, porém estas são algumas das mais importantes.</p>
+    <hr>
+    <h2 id="lista"><font face="Times New Roman">Listagem</font></h2>
+    <small><a href="#inicio">(Voltar ao topo)</a></small>
+    <p><font face="Arial">Existem dois tipos de listas: ordenadas (<strong>&ltol&gt</strong>), automaticamente numeradas em ordem crescente, e não ordenadas (<strong>&ltul&gt</strong>), listas marcadas.</font></p>
+    <p>Ambas delas precisam de <i>tags</i> filhas para itens de lista (<strong>&ltli&gt</strong>), além de serem abertas.</p>
+    <hr>
+    <h2 id="links"><font face="Times New Roman">Links</font></h2>
+    <small><a href="#inicio">(Voltar ao topo)</a></small>
+    <p><font face="Arial">As hiperligações conectam páginas entre si, através de imagens ou textos. Como elementos fundamentais de um <i>site</i>, os <i>links</i> possuem <i>tags</i> para si.</font></p>
+    <p>A estrutura de um <i>link</i> HTML é <strong>&lta href="local"&gt</strong>;</p>
+    <ul>
+      <li>"a" é a âncora, <i>tag</i> que vincula <i>links</i> internos e externos.</li>
+      <li>"href" é o atributo de referência de hipertexto. A <abbr title="Uniform Resource Locator">URL</abbr> do <i>site</i> vinculado ao nosso <i>site</i>. Também pode ser uma ID dento da própria página ou um outro arquivo HTML na mesma pasta.</li>
+      <li>Há também o atributo "target", que especifica onde será aberto o <i>site</i> vinculado, se será em uma nova aba (_blank) ou na mesma aba (_self).</li>
+      <li>O título (title) é o texto escrito para o seu <i>link</i>.</li>
+    </ul>
+    <hr>
+    <h3 id="referencia"><font face="Times New Roman">Referências e Links</font></h3>
+    <small><a href="#inicio">(Voltar ao topo)</a></small>
+    <ul>
+      <li><a href="https://web.dio.me/course/introducao-ao-html-na-pratica/learning/a6c501f1-c8f1-41b0-ac09-9f30e79fcd01?back=/track/primeiros-passos-em-tecnologia&tab=undefined&moduleId=undefined">Curso "Introdução ao HTML na Prática" da DIO.me</a></li>
+      <li><a href="https://code.visualstudio.com/">Site do Visual Studio Code</a></li>
+      <li><a href="https://www.w3schools.com/html/">Tutorial de HTML da W4Schools</a></li>
+      <li><a href="https://br.linkedin.com/in/diogomainardes">Linkedin do profissional Diogo M. Mainardes</a></li>
+      <li><a href="https://github.com/ferreiraLucasnsc/HTML_repositorio">Meu repositório para o Desafio de Projeto</a></li>
+    </ul>
+    <blockquote>Espero que tenham gostado deste meu projeto! - <sub>Lucas Ferreira Nascimento</sub></blockquote>
+    <del>Obrigado ^^</del>
+  </body>
+</html>
